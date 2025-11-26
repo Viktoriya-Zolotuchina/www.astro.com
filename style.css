@@ -311,3 +311,13 @@ body {
 .certificate-card img[src=""] {
     display: none;
 }
+.certificate-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain; /* Показывает все изображение без обрезки */
+    border: 3px solid red; /* Красная рамка для отладки */
+    background: linear-gradient(135deg, #f8f6f0 0%, #e8e6df 100%); /* Элегантный фон под сертификат */
+    padding: 10px; /* Добавляет отступ между изображением и рамкой */
+    box-sizing: border-box;
+}
+
