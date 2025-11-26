@@ -298,3 +298,16 @@ body {
     height: 250px;
     object-fit: cover;
 }
+/* Добавьте в style.css для отладки */
+.certificate-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid red; /* Красная рамка для отладки */
+    background-color: #f0f0f0; /* Фон если изображение не загрузится */
+}
+
+/* Если изображение не загружено, будет видно */
+.certificate-card img[src=""] {
+    display: none;
+}
